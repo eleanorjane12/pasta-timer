@@ -1,0 +1,46 @@
+
+body {
+    font-family: Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: gray;
+}
+
+h1 {
+    color: pink;
+    font-size: 80px;
+    margin-bottom: 0;
+
+}
+
+button {
+    border: orange;
+    color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .header-elements {
+    
+    font-size: 15px;
+    line-height: 50px;
+
+  }
+
+  sub {
+    display: block;
+    line-height: 0;
+    padding-bottom: 10px;
+}
+
+a:link {
+    color:cornflowerblue;
+}
+a:visited {
+    color:blue;
+}
+
+
