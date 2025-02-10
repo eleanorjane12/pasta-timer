@@ -1,4 +1,0 @@
-
-function alertbutton() {
-    alert("alert")
-}
