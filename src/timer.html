@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pasta Timer</title>
+    <link rel="stylesheet" href="/src/index.css">
+    <script src="/src/renderer.js"></script>
+    
+</head>
+</html>
+
+<body>
+  <header>
+    <div class="header-container"> 
+      <h1> Pasta Timer </h1>
+    </div>
+  </header>
+  <div class="background-border">
+   <div class="main">
+    <div class="items"> 
+        <p id="timer-display">   </p>
+    <div class="clock"> 
+        <img id="stillClock" class="clock-img" src="/src/assets/clock.png">
+        <img id="movingClock" class="clock-img" src="/src/assets/clock.gif" >
+    </div> 
+    <div id="input-q">
+        <p id="text-display"> how long does your pasta cook? </p> 
+    </div>
+    <div class="input-and-btn"> 
+    <input type="number" id="time-input" min="1" value="5">
+    <button onclick="startTimer()" id="start-timer-btn"> Start</button>
+</div>
+    
+</div>
+   
+   </div>
+  </div>
+
+
+</body>
+
+
+
+
