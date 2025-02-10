@@ -90,17 +90,22 @@ h1 {
   height: 50vh;
   top: 30px;
   right: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
 }
 
 #input-q {
-  /* add background - currently unreadable*/
-  font-size: 26px;
+  background-image: url("/src/assets/border.png");
+  background-size: cover;
+  font-size: 24px;
   text-align: center;
   padding: 0px;
   line-height: 0px;
-  height: 40px;
+  height: 45px;
   margin-bottom: 10px;
+  margin-top: 10px;
+  width: 330px;
 }
 
 .items {
@@ -131,4 +136,6 @@ h1 {
   width: 60px;
 
 }
+
+
 
